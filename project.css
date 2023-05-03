@@ -1,0 +1,22 @@
+table{
+    text-align:center;
+}
+
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,0.5943627450980392) 0%, rgba(253,45,123,0.43469887955182074) 100%);
+}
+
+td{
+    font-style: BOLD;
+    font-size: 25px;  
+}
+
+button{
+    font-size: 20px;
+    font-style:italic;
+}
+
+a{
+    text-decoration: none;
+}

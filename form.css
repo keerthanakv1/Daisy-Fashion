@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/759/86/desktop-wallpaper-nature-full-screen-computer-nature-full-screen.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container{
+    width: 600px;
+    font-size: x-large;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.header{
+    background-color:grey;
+    padding:10px 20px;
+}
+.form{
+    padding:20px 40px;
+}
+.form-control{
+    margin-bottom:10px;
+    padding-bottom:10px;
+    position:relative;
+}
+.form-control lable{
+    display:inline-block;
+    margin-bottom: 5px;
+}
+.form-controol input{
+    display: block;
+    width:100px;
+    padding:10px;
+    border-radius: 4px;
+    border:2px solid #d8d1d1 ;
+}
+.form-control.success input{
+    border:2px solid #11d303;
+}
+.form-control.error input{
+    border:2px solid rgb(203, 5, 5);
+}
+.form-control small{
+    position: absolute;
+    margin: 3px;
+    visibility: hidden;
+}
+button{
+    background-color: rgb(4,4,95);
+    color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 4px;
+    border:2px solid rgb(4,4,95);
+    cursor: pointer;
+    font-size: x-large;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+
